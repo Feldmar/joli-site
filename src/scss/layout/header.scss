@@ -1,14 +1,23 @@
 // =====================================================================================================================
 .header {
+  z-index: 8;
   width: 100%;
+
   &.sticky {
     // ..стили для липкого хедера
   }
-  // .header__container
   &__container {
-    height: rem($headerHeight);
-    display: flex;
     align-items: center;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    padding: 45px 0;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 // =====================================================================================================================
@@ -60,3 +69,19 @@
   }
 }
 */
+.menu {
+  &__list {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  &__link {
+    color: $whiteColor;
+    font-family: $font-work-sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
