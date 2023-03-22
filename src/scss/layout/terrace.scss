@@ -1,0 +1,58 @@
+.terrace {
+  background: #20201f;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  gap: 130px;
+  padding-bottom: 122px;
+
+  &__title {
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 108px;
+    text-transform: lowercase;
+    color: #e5e2de;
+    text-align: center;
+    z-index: 1;
+  }
+
+  &__button {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    text-transform: lowercase;
+    color: #e5e2de;
+    border: 1px solid #e5e2de;
+    border-radius: 41.6429px;
+    padding: 13px 30px;
+  }
+
+  &__image1 {
+    position: absolute;
+    left: 84px;
+    top: 0;
+  }
+
+  &__image2 {
+    position: absolute;
+    right: 0;
+    top: 84px;
+  }
+
+  &__image3 {
+    position: absolute;
+    bottom: 0;
+    right: 98px;
+    height: 172px;
+    width: 250px;
+    object-fit: cover;
+    object-position: top;
+  }
+}
