@@ -1,0 +1,30 @@
+.manages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  padding: 121px 0 115px 0;
+
+  &__title {
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #20201f;
+  }
+
+  &__button {
+    width: auto;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #20201f;
+  }
+}

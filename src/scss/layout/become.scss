@@ -1,0 +1,49 @@
+.become {
+  width: 100%;
+  display: flex;
+
+  &__left {
+    width: 50%;
+    background: url("../images/mramor2.svg");
+  }
+
+  &__right {
+    width: 50%;
+    background: #f7f7f7;
+    display: flex;
+    padding: 115px 0 311px 84px;
+    flex-direction: column;
+    gap: 62px;
+  }
+
+  &__title {
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 68px;
+    text-transform: lowercase;
+    color: #20201f;
+  }
+
+  &__description {
+    font-family: $font-work-sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    width: 90%;
+    line-height: 33px;
+    color: #20201f;
+  }
+
+  &__button {
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    text-transform: lowercase;
+    color: #20201f;
+    width: max-content;
+  }
+}
