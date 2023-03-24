@@ -54,7 +54,7 @@
       align-items: flex-end;
     }
   }
-  
+
   &__image {
     display: flex;
 
@@ -66,6 +66,11 @@
 
     &-sofa {
       padding-bottom: 61px;
+    }
+
+    &-table img {
+      object-fit: cover;
+      object-position: top;
     }
   }
 }

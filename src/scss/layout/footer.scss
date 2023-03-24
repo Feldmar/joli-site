@@ -1,8 +1,63 @@
 .footer {
-  padding: rem(20) 0;
-  background: $blackColor;
-  &__container {
+  background: #20201f;
+  padding: 74px 0 78px 0;
+  display: flex;
+  justify-content: space-around;
+
+  &__top {
+    font-size: 19px;
+  }
+
+  &__bottom {
     display: flex;
-    align-items: center;
+    gap: 97px;
+    font-size: 16px;
+  }
+
+  &__container {
+    font-family: $font-work-sans;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 33px;
+    color: #e5e2de;
+    display: flex;
+    flex-direction: column;
+    gap: 67px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 37px;
+  }
+
+  &__collections {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  &__inspiration {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  &__products {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
   }
 }

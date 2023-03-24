@@ -70,6 +70,13 @@
       justify-content: space-between;
       align-items: center;
     }
+
+    &__image {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   &__subblock {
@@ -85,6 +92,13 @@
       font-size: 16px;
       line-height: 30px;
       color: #20201f;
+    }
+
+    &__image {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
@@ -106,5 +120,18 @@
     &-array {
       display: flex;
     }
+  }
+
+  &__category {
+    position: absolute;
+    z-index: 2;
+    font-family: $font-roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #ffffff;
   }
 }
