@@ -60,4 +60,9 @@
     flex-direction: column;
     gap: 28px;
   }
+
+  &__social {
+    display: flex;
+    gap: 15px;
+  }
 }
